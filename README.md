@@ -66,3 +66,5 @@
     }
   }
  ```
+
+ - Integer overflow - Situation where you want to use more bits than you have available to represent numbers.
