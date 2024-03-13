@@ -24,3 +24,23 @@
     number = 20;
   ```
 - Indentation in C is 4 spaces.
+- A forever loop looks like below
+  ```ssh
+    #include <stdio.h>
+    #include <stdbool.h>
+
+    int main(void) {
+      while(true) {
+        printf("meow \n); // code runs without stopping
+      }
+    }
+  ```
+- Control c cancels a running program
+- Commands in linux terminal include
+  ```ssh
+    cd, ls, mkdir, cp, mv, rm, rmdir
+  ```
+- To rename a file in terminal
+  ```ssh
+    mv filename newFileName
+  ```
