@@ -79,8 +79,13 @@
   ```ssh
     float number = 1.24;
   ```
+  - Floating point imprecisions. A situation where the computer tries to estimate values based on the number of bits allocated. Doubles fixes this issue.
  - Doubles takes double the memory of float (so at least 64 bits). In return, double can provide 15 decimal place from 2.3E-308 to 1.7E+308.
   ```ssh
     double number = 1.
   ```
  - long double takes at least 80 bits. As a result, we can get 19 decimal places from 3.4E-4932 to 1.1E+4932.
+ - The void type specifies that no value is available. It is used in three kinds of situations.
+    1. Function returns as void. - There are various functions in C which do not return any value or you can say they return void. A function with no return value has the return type as void. For example, void exit (int status);
+    2. Function arguments as void. - There are various functions in C which do not accept any parameter. A function with no parameter can accept a void. For example, int rand(void);
+    3. Pointers to void. 
